@@ -1,0 +1,228 @@
+<html>
+
+<head>
+    <title><%=email_params.get_from_email_data.branch_name%></title>
+    <meta charset='UTF-8'>
+</head>
+
+<body style='background-color:#FFFFFF' link='#f8951e' vlink='#f8951e' alink='#f8951e'>
+    <table style='font-size:15px;line-height:21px' bgcolor='#ffffff' border='0' cellpadding='0' cellspacing='0' width='100%'>
+        <tbody>
+            <tr>
+                <td>
+                    <table border='0' cellpadding='0' cellspacing='0' width='100%'>
+                        <tbody>
+                            <tr>
+                                <td style='font-size:0px;line-height:0px' height='0'>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td align='center'>
+                                    <table bgcolor='#ffffff' border='0' cellpadding='0' cellspacing='0'>
+                                        <tbody>
+                                            <tr>
+                                                <td align='left'>
+                                                    <table border='0' cellpadding='0' cellspacing='0'>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td width='20px'></td>
+                                                                <td width='540px'>
+                                                                    <table border='0' cellpadding='0' cellspacing='0' align='center'>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td style='font-size:16pt;color:#ffffff' align='center'></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                                <td width='20px'></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align='left' bgcolor='#ffffff' width='100%'>
+                                                    <table border='0' cellpadding='0' cellspacing='0' width='100%'>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td height='20'></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width='100%'>
+                                                                    <table border='0' cellpadding='0' cellspacing='0' width='100%'>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td height='20' style='font-size:15px;line-height:22px;color:black;text-align:left; font-weight: bold;'>FROM:</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td height='20' style='font-size:15px;line-height:22px;color:black;text-align:left;'><%=email_params.get_from_email_data.branch_name%></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td height='20' style='font-size:15px;line-height:22px;color:black;text-align:left;'><%=email_params.get_from_email_data.branch_address%></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td height='20' style='font-size:15px;line-height:22px;color:black;text-align:left;'><%=email_params.get_from_email_data.branch_contact_num%></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td height='20' style='font-size:15px;line-height:22px;color:black;text-align:left;'><%=email_params.get_from_email_data.branch_email_id%></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td height='30'></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td height='20' style='font-size:15px;line-height:22px;color:black;text-align:left; font-weight: bold;'>TO:</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td height='20' style='font-size:15px;line-height:22px;color:black;text-align:left;'><%=email_params.get_to_email_data.supplier_name%></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td height='20' style='font-size:15px;line-height:22px;color:black;text-align:left;'><%=email_params.get_to_email_data.supplier_address%></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td height='20' style='font-size:15px;line-height:22px;color:black;text-align:left;'><%=email_params.get_to_email_data.supplier_contact_num%></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td height='20' style='font-size:15px;line-height:22px;color:black;text-align:left;'><%=email_params.get_to_email_data.supplier_email_id%></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td height='10'></td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td height='20' style='font-size:15px;line-height:22px;color:black;text-align:center;'>Invoice Number:<%=email_params.get_po_data.po_number%>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Invoice Date:<%=email_params.get_po_data.po_date%></td>
+                                                                                <!-- <td height='20' style='font-size:15px;line-height:22px;color:black;text-align:left;'><%=email_params.get_po_data.po_date%></td> -->
+                                                                                
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td style='font-size:15px;line-height:22px;color:black;text-align:left;' colspan='5'>Dear Sir / Madam, 
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td style='font-size:15px;line-height:22px;color:black;text-align:left;' colspan='5'>Kindly arrange to supply the following items as given below
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td height='20'></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                    <table  cellpadding='0' cellspacing='0' width='100%' style="border: 1px solid black;border-collapse: collapse;" >
+                                                                        <tbody style="border: 1px solid black;border-collapse: collapse;">
+                                                                            <tr>
+                                                                                <th style='font-size:15px;line-height:22px;color:black;text-align:center; font-weight: bold; border: 1px solid black;border-collapse: collapse;' colspan='5'>Sl No</th>
+                                                                                <th style='font-size:15px;line-height:22px;color:black;text-align:center; font-weight: bold; border: 1px solid black;border-collapse: collapse;' colspan='5'>Product Description</th>
+                                                                                <th style='font-size:15px;line-height:22px;color:black;text-align:center; font-weight: bold; border: 1px solid black;border-collapse: collapse;' colspan='5'>Qty</th>
+                                                                                <!-- <th style='font-size:15px;line-height:22px;color:black;text-align:center; font-weight: bold; border: 1px solid black;border-collapse: collapse; background-color:#e8e337;' colspan='5'>Unit Price</th>
+                                                                                <th style='font-size:15px;line-height:22px;color:black;text-align:center; font-weight: bold; border: 1px solid black;border-collapse: collapse; background-color:#e8e337;' colspan='5'>Amount</th> -->
+                                                                                <th style='font-size:15px;line-height:22px;color:black;text-align:center; font-weight: bold; border: 1px solid black;border-collapse: collapse;' colspan='5'>To be Delivered Date</th>
+                                                                                <th style='font-size:15px;line-height:22px;color:black;text-align:center; font-weight: bold; border: 1px solid black;border-collapse: collapse;' colspan='5'>To be delivered at</th>
+                                                                                <th style='font-size:15px;line-height:22px;color:black;text-align:center; font-weight: bold; border: 1px solid black;border-collapse: collapse;' colspan='5'>Comments  /  Remarks</th> 
+                                                                            </tr>
+                                                                            <% for(var i=0; i < email_params.po_body_data.length; i++) {%>
+                                                                                <tr>
+                                                                                    <td colspan="5" height='20' style='font-size:15px;line-height:22px;color:#424242;text-align:center; border: 1px solid black;border-collapse: collapse;'><%= i + 1%></td>
+                                                                                    <td colspan="5" height='20' style='font-size:15px;line-height:22px;color:#424242;text-align:center; border: 1px solid black;border-collapse: collapse;'><%= email_params.po_body_data[i].product_name%></td>
+                                                                                    <td colspan="5" height='20' style='font-size:15px;line-height:22px;color:#424242;text-align:center; border: 1px solid black;border-collapse: collapse;'><%= email_params.po_body_data[i].qty_ordered%></td>
+                                                                                     <!-- <td colspan="5" height='20' style='font-size:15px;line-height:22px;color:#424242;text-align:center; border: 1px solid black;border-collapse: collapse; background-color:#e8e337;'><%= email_params.po_body_data[i].unit_price%></td>
+                                                                                    <td colspan="5" height='20' style='font-size:15px;line-height:22px;color:#424242;text-align:center; border: 1px solid black;border-collapse: collapse; background-color:#e8e337;'><%= email_params.po_body_data[i].amount%></td> -->
+                                                                                    <td colspan="5" height='20' style='font-size:15px;line-height:22px;color:#424242;text-align:center; border: 1px solid black;border-collapse: collapse;'><%= email_params.po_body_data[i].exp_del_date%></td>
+                                                                                    <td colspan="5" height='20' style='font-size:15px;line-height:22px;color:#424242;text-align:center; border: 1px solid black;border-collapse: collapse;'><%= email_params.po_body_data[i].branch_name%></td>
+                                                                                    <td colspan="5" height='20' style='font-size:15px;line-height:22px;color:#424242;text-align:center; border: 1px solid black;border-collapse: collapse;'><%= email_params.po_body_data[i].remarks%></td>
+                                                                                </tr>
+                                                                            <% } %>
+                                                                            <tr>
+                                                                                <td colspan="5" height='20' style='font-size:15px;line-height:22px;color:#424242;text-align:center; border-collapse: collapse; background-color:#e8e337;'></td>
+                                                                                <td colspan="5" height='20' style='font-size:15px;line-height:22px;color:#424242;text-align:center; border-collapse: collapse; background-color:#e8e337;'></td>
+                                                                                <td colspan="5" height='20' style='font-size:15px;line-height:22px;color:#424242;text-align:center; border-collapse: collapse; background-color:#e8e337;'></td>
+                                                                                <td colspan="5" height='20' style='font-size:15px;line-height:22px;color:#424242;text-align:center; border-collapse: collapse; background-color:#e8e337;'></td>
+                                                                                <td colspan="5" height='20' style='font-size:15px;line-height:22px;color:#424242;text-align:center; border-collapse: collapse; background-color:#e8e337;'></td>
+                                                                                <td colspan="5" height='20' style='font-size:15px;line-height:22px;color:#424242;text-align:center; border-collapse: collapse; background-color:#e8e337;'></td>
+                                                                                <td colspan="5" height='20' style='font-size:15px;line-height:22px;color:#424242;text-align:center; border-collapse: collapse; background-color:#e8e337;'></td>
+                                                                                <td colspan="5" height='20' style='font-size:15px;line-height:22px;color:#424242;text-align:center; border-collapse: collapse; background-color:#e8e337;'></td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style='font-size:0px;line-height:0px' height='20'>&nbsp;</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td height=30'></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td width='100%'>
+                                                                    <table border='0' cellpadding='0' cellspacing='0' width='100%'>
+                                                                        <tbody>
+                                                                            <% for(var i=0; i < email_params.po_footer_data.length; i++) {%>
+                                                                                <tr>
+                                                                                    <td colspan="5" height='20' style='font-size:15px;line-height:22px;color:#424242;text-align:left; border-collapse: collapse;'><%= email_params.po_footer_data[i].branch_name%></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td colspan="5" height='20' style='font-size:15px;line-height:22px;color:#424242;text-align:left; border-collapse: collapse;'><%= email_params.po_footer_data[i].branch_address%></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td colspan="5" height='20' style='font-size:15px;line-height:22px;color:#424242;text-align:left; border-collapse: collapse;'><%= email_params.po_footer_data[i].branch_contact_num%></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td colspan="5" height='20' style='font-size:15px;line-height:22px;color:#424242;text-align:left; border-collapse: collapse;'><%= email_params.po_footer_data[i].branch_email_id%></td>
+                                                                                </tr>
+                                                                            <% } %>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style='font-size:0px;line-height:0px' height='20'>&nbsp;</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!-- <table border='0' cellpadding='0' cellspacing='0' width='100%'>
+                                        <tbody>
+                                            <tr>
+                                                <td height=30'></td>
+                                            </tr>
+                                            <tr>
+                                                <td width='100%'>
+                                                    <table border='0' cellpadding='0' cellspacing='0' width='100%'>
+                                                        <tbody>
+                                                            <% for(var i=0; i < email_params.po_footer_data.length; i++) {%>
+                                                                <tr>
+                                                                    <td colspan="5" height='20' style='font-size:15px;line-height:22px;color:#424242;text-align:left; border-collapse: collapse;'><%= email_params.po_footer_data[i].branch_name%></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height='20' style='font-size:15px;line-height:22px;color:#424242;text-align:left; border-collapse: collapse;'><%= email_params.po_footer_data[i].branch_address%></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height='20' style='font-size:15px;line-height:22px;color:#424242;text-align:left; border-collapse: collapse;'><%= email_params.po_footer_data[i].branch_contact_num%></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height='20' style='font-size:15px;line-height:22px;color:#424242;text-align:left; border-collapse: collapse;'><%= email_params.po_footer_data[i].branch_email_id%></td>
+                                                                </tr>
+                                                            <% } %>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style='font-size:0px;line-height:0px' height='20'>&nbsp;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table> -->
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
